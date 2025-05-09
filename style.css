@@ -1,0 +1,76 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #fffaf4;
+    color: #5c4033;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ffe0b3;
+    padding: 20px;
+    border-bottom: 4px dashed #ffc1cc;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d17b55;
+    font-weight: bold;
+}
+
+.hero {
+    padding: 40px 20px;
+    background-color: #fff0e1;
+}
+
+.shop-btn {
+    display: inline-block;
+    background-color: #ffb6b9;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.shop-btn:hover {
+    background-color: #ff9a9e;
+}
+
+button {
+    background-color: #f7a072;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #f96d00;
+}
+
+footer {
+    background-color: #ffe5d4;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
